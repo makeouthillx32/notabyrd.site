@@ -1,9 +1,6 @@
-Say less. Here’s the same intake, but with direct signup links baked in so she can just tap → create → paste info back.
-(You can drop this straight into a doc or send as-is.)
 
-⸻
 
-Website Setup Intake Form (Rodeo Apparel)
+Website Setup Intake Form 
 
 STEP 0 — One Email for Everything (IMPORTANT)
 
