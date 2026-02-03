@@ -1,151 +1,179 @@
+# Website Setup Intake Form
 
+This repository contains the standardized **Website Setup Intake Form** used for client onboarding.  
+The form is designed to collect all required infrastructure, platform, and account information needed to deploy and manage a production website.
 
-Website Setup Intake Form 
+All client-specific values are intended to be stored in a copied `.env` file derived from `example.env`.
 
-STEP 0 — One Email for Everything (IMPORTANT)
+---
 
-Pick ONE email to use for all accounts below (recommended).
-	•	Main business email:
-	•	Backup recovery email:
-	•	Phone number (for 2FA):
+## STEP 0 — One Email for Everything (IMPORTANT)
 
-⸻
+Pick **ONE email** to use for all accounts below (recommended).
 
-1) Domain (DO THIS FIRST)
+- Main business email:
+- Backup recovery email:
+- Phone number (for 2FA):
 
-👉 Buy your domain here:
-GoDaddy domain search:
+---
+
+## 1) Domain (DO THIS FIRST)
+
+Buy your domain here:  
 https://www.godaddy.com/domains
 
-After purchase, log in here:
-GoDaddy dashboard:
+GoDaddy dashboard:  
 https://dcc.godaddy.com/
 
 Fill in:
-	•	Chosen domain:
-	•	Backup domain (if first was taken):
-	•	GoDaddy login email:
-	•	GoDaddy username (if any):
-	•	2FA enabled? Yes / No
+- Chosen domain:
+- Backup domain (if first was taken):
+- GoDaddy login email:
+- GoDaddy username (if any):
+- 2FA enabled? Yes / No
 
-⸻
+---
 
-2) GitHub (Code Ownership)
-step not needed Tyler will post it on his. 
+## 2) GitHub (Code Hosting)
 
-👉 Create account:
-https://github.com/signup
+No action required.  
+Code is hosted and deployed under Tyler’s GitHub account.
 
-After signup:
-	•	GitHub username:
-	•	GitHub email:
-	•	Profile link: https://github.com/USERNAME
+---
 
-Access repos later at:
-https://github.com/
+## 3) Vercel (Website Hosting)
 
-Add Tyler as collaborator? Yes / No
-
-⸻
-
-3) Vercel (Website Hosting)
-
-👉 Sign up:
+Sign up:  
 https://vercel.com/signup
 
-Recommended: Sign up with GitHub
-
-Dashboard after login:
+Dashboard:  
 https://vercel.com/dashboard
 
 Fill in:
-	•	Vercel account email:
-	•	Sign-in method: Email / Google / GitHub
-	•	Vercel team name (if asked):
-	•	Vercel dashboard link:
+- Vercel account email:
+- Sign-in method: Email / Google / GitHub
+- Vercel team name (if asked):
+- Vercel dashboard link:
+- Vercel project name (if created):
 
-⸻
+---
 
-4) Supabase (Database + Images)
+## 4) Supabase (Database + Storage + Auth)
 
-👉 Sign up:
+Sign up:  
 https://supabase.com/dashboard/sign-up
 
-Dashboard:
+Dashboard:  
 https://supabase.com/dashboard
 
-After creating a project:
-	•	Supabase account email:
-	•	Organization name:
-	•	Project name:
-	•	Project region (if asked):
-	•	Supabase project URL:
+Fill in:
+- Supabase account email:
+- Organization name:
+- Project name:
+- Project region:
+- Supabase project URL:
 
-⸻
+---
 
-5) Stripe (Payments)
+## 5) Brevo (Transactional Email)
 
-👉 Sign up:
+Sign up:  
+https://www.brevo.com/
+
+Dashboard:  
+https://app.brevo.com/
+
+Fill in:
+- Brevo account email:
+- Sender name:
+- Sender email (example: admin@yourdomain.com):
+- Domain verified? Yes / No
+- Brevo dashboard link:
+
+---
+
+## 6) Stripe (Payments)
+
+Sign up:  
 https://dashboard.stripe.com/register
 
-Dashboard:
+Dashboard:  
 https://dashboard.stripe.com/
 
-During setup:
-	•	Business type: Individual / LLC / Not sure yet
-	•	Public business name (what customers see)
+Fill in:
+- Business type: Individual / LLC / Not sure yet
+- Public business name (customer-facing)
+- Stripe account email:
+- Stripe dashboard link:
+- Customer support email:
 
-After signup:
-	•	Stripe account email:
-	•	Stripe dashboard link:
-	•	Support email for customers:
+Bank information may be added later. Test mode is acceptable for initial setup.
 
-⚠️ Bank info can be added later — test mode first is fine.
+---
 
-⸻
+## 7) Social Accounts (Optional)
 
-6) Socials (Optional but useful)
-	•	Instagram:
-	•	TikTok:
-	•	Other:
+- Instagram handle:
+- Instagram account email:
+- TikTok handle:
+- TikTok account email:
+- Other platform name:
+- Other platform handle:
+- Other platform email:
 
-⸻
+---
 
-7) Store Basics
-	•	Products at launch: Pants / Shirts / Both
-	•	Shipping: US only / US + International
-	•	Returns: (example: 14 days, unworn)
-	•	Free shipping over $___?
+## 8) Store Basics
 
-⸻
+- Products at launch: Pants / Shirts / Both
+- Shipping: US only / US + International
+- Returns policy:
+- Free shipping over $_____?
 
-8) Product Info (Minimum to Launch)
+---
+
+## 9) Product Info (Minimum to Launch)
 
 For each product (up to 10):
-	•	Product name:
-	•	Type: Pants / Shirt
-	•	Price:
-	•	Sizes:
-	•	Colors:
-	•	Approx stock per size:
-	•	Photos ready? Yes / No
 
-⸻
+- Product name:
+- Type: Pants / Shirt
+- Price:
+- Sizes:
+- Colors:
+- Approximate stock per size:
+- Photos ready? Yes / No
 
-BOOKMARK THESE (IMPORTANT)
-	•	Domains (GoDaddy):
-https://dcc.godaddy.com/
-	•	GitHub:
-https://github.com/
-	•	Vercel:
-https://vercel.com/dashboard
-	•	Supabase:
-https://supabase.com/dashboard
-	•	Stripe:
-https://dashboard.stripe.com/
-⸻
+---
 
-Rules (read once)
-	•	Use one email everywhere if possible
-	•	Turn on 2FA for all accounts
-	
+## Bookmarks (Required)
+
+- GoDaddy: https://dcc.godaddy.com/
+- Vercel: https://vercel.com/dashboard
+- Supabase: https://supabase.com/dashboard
+- Brevo: https://app.brevo.com/
+- Stripe: https://dashboard.stripe.com/
+
+---
+
+## Rules
+
+- Use one email everywhere if possible
+- Enable 2FA on all accounts
+
+---
+
+## Tech Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)
+
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?logo=stripe&logoColor=white)
+![Brevo](https://img.shields.io/badge/Brevo-0B996E?logoColor=white)
+
+---
