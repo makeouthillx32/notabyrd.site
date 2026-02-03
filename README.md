@@ -31,6 +31,7 @@ Fill in:
 ⸻
 
 2) GitHub (Code Ownership)
+step not needed Tyler will post it on his. 
 
 👉 Create account:
 https://github.com/signup
